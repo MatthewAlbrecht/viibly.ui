@@ -17,7 +17,6 @@ export default class Txt extends Component {
   }
 
   get colorClasses() {
-    // Should be capitalized
     return this.props.color && this.props.color.split(" ").map(color => `txt_color${color}`);
   }
 
