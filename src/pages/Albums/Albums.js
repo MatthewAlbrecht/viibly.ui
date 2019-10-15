@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-export default class Home extends Component {
+export default class Albums extends Component {
   render() {
     return (
       <>
-        <h1>Home Page</h1>
+        <h1>Albums Page</h1>
         <ul>
           <li>
             <Link to="/">
