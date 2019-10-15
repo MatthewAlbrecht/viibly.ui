@@ -1,0 +1,27 @@
+/* ---------------------------------------------
+ Nav
+ --
+ The main navigation for the site
+--------------------------------------------- */
+
+.header {
+  height: rhythm(6);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 rhythm(6);
+}
+
+.nav-logo {
+  height: 2rem;
+  width: 6rem;
+  background-color: $COLOR_DARKPEST;
+}
+
+.nav-hamburgerMenu {
+  height: 2rem;
+  width: 2rem;
+}

@@ -3,7 +3,7 @@
 ------------------------------------------------------------------------ */
 
 .txt {
-  font-family: $FONT_FAMILY_PRIMARY;
+  font-family: $fontFamilyPrimary;
   font-weight: normal;
   line-height: 1.2;
   word-break: break-word;
@@ -99,35 +99,35 @@ $text-sizes: 10 12 14 16 18 20 24 26 32 38 40 50 80;
 // ------------------------------------
 
 .txt_colorLightest {
-  color: $COLOR_LIGHTEST;
+  color: $colorLightest;
 }
 
 .txt_colorGreyLight {
-  color: $COLOR_GREY_LIGHT;
+  color: $colorGreyLight;
 }
 
 .txt_colorGrey {
-  color: $COLOR_GREY;
+  color: $colorGrey;
 }
 
 .txt_colorGreyMedium {
-  color: $COLOR_GREY_MEDIUM;
+  color: $colorGreyMedium;
 }
 
 .txt_colorGreyDark {
-  color: $COLOR_GREY_DARK;
+  color: $colorGreyDark;
 }
 
 .txt_colorDarkest {
-  color: $COLOR_DARKEST;
+  color: $colorDarkest;
 }
 
 .txt_colorRed {
-  color: $COLOR_RED;
+  color: $colorRed;
 }
 
 .txt_colorRedDark {
-  color: $COLOR_RED_DARK;
+  color: $colorRedDark;
 }
 
 .txt_opaque {
@@ -170,7 +170,7 @@ $text-sizes: 10 12 14 16 18 20 24 26 32 38 40 50 80;
   }
 
   .txt_colorGreyDarkMd {
-    color: $COLOR_GREY_DARK;
+    color: $colorGreyDark;
   }
 }
 

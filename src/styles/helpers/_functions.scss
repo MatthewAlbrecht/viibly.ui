@@ -5,7 +5,7 @@
 // Returns a multiple of the base rhythm unit of the design
 // Converts to rems
 @function rhythm($multiplier) {
-  @return #{$multiplier * $RHYTHM_BASE / 10}rem;
+  @return #{$multiplier * $rhythmBase / 10}rem;
 }
 
 // capitalizes the first letter of a string

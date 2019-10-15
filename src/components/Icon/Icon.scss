@@ -29,8 +29,8 @@
   }
 
   .primaryFill {
-    fill: $COLOR_LIGHTEST;
-    transition: fill .2s $EASEOUT_QUAD;
+    fill: $colorLightest;
+    transition: fill .2s $easeOutQuad;
   }
 }
 
@@ -46,18 +46,18 @@
 
 .icon_info {
   .primaryFill {
-    fill: $COLOR_GREY;
+    fill: $colorGrey;
   }
   .primaryStroke {
-    stroke: $COLOR_GREY;
+    stroke: $colorGrey;
   }
 
   &:hover {
     .primaryFill {
-      fill: $COLOR_DARKEST;
+      fill: $colorDarkest;
     }
     .primaryStroke {
-      stroke: $COLOR_DARKEST;
+      stroke: $colorDarkest;
     }
   }
 }
@@ -86,7 +86,7 @@
     }
 
     &:hover .primaryFill {
-      fill: $COLOR_GREY_LIGHTEST;
+      fill: $colorGreyLightest;
     }
   }
 }
