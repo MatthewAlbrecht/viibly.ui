@@ -6,10 +6,10 @@ import classnames from 'classnames'
 function Nav(props) {
   console.log(props);
 
-  const navClasses = classnames(
-    'nav', 
-    props.transparency ? 'nav_transparent': '',
-  )
+  const navClasses = classnames({
+    'nav': true,
+    'nav_transparent': props.transparency,
+  })
 
   return (
     <nav className={navClasses}>
