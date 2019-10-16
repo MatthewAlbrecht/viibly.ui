@@ -6,10 +6,10 @@
 
 .btn {
   display: inline-block;
-  font-family: $FONT_FAMILY_PRIMARY;
+  font-family: $fontFamilyPrimary;
   text-transform: uppercase;
-  background-color: $COLOR_GREY_DARK;
-  color: $COLOR_LIGHTEST;
+  background-color: $colorGreyDark;
+  color: $colorLightest;
   font-size: 1.6rem;
   font-weight: 600;
   letter-spacing: .1rem;
@@ -17,15 +17,15 @@
   min-width: 12.8rem;
   padding: 1.4rem rhythm(4) 1.5rem rhythm(4);
   text-align: center;
-  transition: background-color 0.3s $EASEOUT_QUAD;
+  transition: background-color 0.3s $easeOutQuad;
   width: 100%;
 
   &:active {
-    background-color: $COLOR_GREY;
+    background-color: $colorGrey;
   }
 
   &:disabled {
-    background-color: $COLOR_GREY_LIGHTEST;
+    background-color: $colorGreyLightest;
     cursor: unset;
   }
 }
@@ -47,7 +47,7 @@
 @include breakpoint(breakpoint-size('lg')) {
   .btn {
     &:hover {
-      background-color: $COLOR_GREY;
+      background-color: $colorGrey;
     }
   }
 }

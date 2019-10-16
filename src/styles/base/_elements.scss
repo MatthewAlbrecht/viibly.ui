@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  font-family: $FONT_FAMILY_PRIMARY;
+  font-family: $fontFamilyPrimary;
   font-size: 1.6rem;
 }
 
@@ -35,7 +35,7 @@ a {
 }
 
 hr {
-  border-color: $COLOR_GREY;
+  border-color: $colorGrey;
   height: 0.1rem;
   margin: 0;
 }
