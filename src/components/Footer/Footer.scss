@@ -1,3 +1,27 @@
 /* ---------------------------------------------
  Footer
 --------------------------------------------- */
+
+.footer {
+  align-items: center;
+  background: $colorGreyBlue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: rhythm(9);
+}
+
+.footer-logo {
+  background-color: $colorLightest;
+  height: 2rem;
+  overflow: hidden;
+  text-indent: 1000rem;
+  width: 6rem;
+}
+
+.footer-socialContainer-item {
+  border-radius: 50%;
+  border: .1rem $colorLightest solid;
+  height: rhythm(4);
+  width: rhythm(4);
+}
