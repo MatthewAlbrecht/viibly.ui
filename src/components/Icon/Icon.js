@@ -1,7 +1,8 @@
 import React from 'react';
+import classnames from 'classnames';
+
 import Info from './Icons/Info';
 import FooterSwoosh from './Icons/FooterSwoosh';
-import classnames from 'classnames';
 
 export default function Icon(props) {
   function getClasses() {
