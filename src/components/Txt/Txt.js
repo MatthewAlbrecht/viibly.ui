@@ -68,14 +68,14 @@ export default class Txt extends Component {
     if (Tag === 'Link') {
       return (
         <Link className={this.className} to={to}>
-          { content }
+          { content || this.props.children }
         </Link>
       );
     }
 
     return (
       <Tag className={this.className} href={href} htmlFor={htmlFor}>
-        { content }
+        { content || this.props.children }
       </Tag>
     );
   }

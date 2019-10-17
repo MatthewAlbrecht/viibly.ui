@@ -4,8 +4,6 @@ import { changeNavTransparency } from 'actions/nav';
 import classnames from 'classnames'
 
 function Nav(props) {
-  console.log(props);
-
   const navClasses = classnames({
     'nav': true,
     'nav_transparent': props.transparency,

@@ -1,7 +1,9 @@
 import React from 'react';
+
 import HList from 'components/HList/HList'
 import Txt from 'components/Txt/Txt'
 import Box from 'components/Box/Box'
+import Icon from 'components/Icon/Icon'
 
 export default function Footer() {
   return (
@@ -78,6 +80,12 @@ export default function Footer() {
         color="GreyBlueLight"
         content="&copy; Viibly 2019"
       />
+      <Icon 
+        type="FooterSwoosh" 
+        classes="footerSwoosh"
+        className="footer-swoosh"
+        notIcon
+      ></Icon>
     </footer>
   );
 }

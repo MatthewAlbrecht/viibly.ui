@@ -5,10 +5,15 @@
 .footer {
   align-items: center;
   background: $colorGreyBlue;
+  bottom: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  left: 0;
   padding: rhythm(9);
+  position: fixed;
+  width: 100%;
+  z-index: $zBackground;
 }
 
 .footer-logo {
@@ -24,4 +29,11 @@
   border: .1rem $colorLightest solid;
   height: rhythm(4);
   width: rhythm(4);
+}
+
+.footer-swoosh {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
 }
