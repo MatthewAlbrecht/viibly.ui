@@ -12,7 +12,7 @@ class App extends Component {
       <Router>
         <div>
           <Header/>
-          <main>
+          <main className="main">
             {routes.map((route, index) => (
               <Route
                 key={index}
