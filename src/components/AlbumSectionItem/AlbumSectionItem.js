@@ -7,13 +7,10 @@ import Col from 'components/Col/Col'
 
 export default function AlbumSectionItem(props) {
   return (
-    <Col 
-      className=""
-      classes="3"
-    >
+    <Col classes="3">
       <img 
         className="albumSectionItem-albumCover" 
-        alt="albumCover" 
+        alt="Album Cover" 
         {...imageMap.albumCover}
       />
       <Box classes="top2">
