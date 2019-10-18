@@ -1,16 +1,12 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 import { 
   featuredReleases, 
   popularThisMonth, 
   recentlyAdded 
 } from 'data/albums'
 
-import Box from 'components/Box/Box'
-import Txt from 'components/Txt/Txt'
-import VList from 'components/VList/VList'
-import Container from 'components/Container/Container'
-import AlbumSection from 'components/AlbumSection/AlbumSection'
+import { Container, Box } from 'components/Base/Base'
+import AlbumSection from 'components/Feature/AlbumSection/AlbumSection'
 
 export default class Home extends Component {
   render() {

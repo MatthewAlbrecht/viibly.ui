@@ -1,17 +1,13 @@
 import React from 'react'
-import imageMap from 'utils/images'
 
-import Txt from 'components/Txt/Txt'
-import Box from 'components/Box/Box'
-import Col from 'components/Col/Col'
+import { Txt, Box, Col, Img } from 'components/Base/Base'
 
 export default function AlbumSectionItem(props) {
   return (
-    <Col classes="3">
-      <img 
+    <Col classes="12 6Md 3Lg">
+      <Img 
         className="albumSectionItem-albumCover" 
-        alt="Album Cover" 
-        {...imageMap.albumCover}
+        name="albumCover" 
       />
       <Box classes="top2">
         <Txt
