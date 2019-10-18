@@ -7,30 +7,34 @@ import {
 
 import { Container, Box } from 'components/Base/Base'
 import AlbumSection from 'components/Feature/AlbumSection/AlbumSection'
+import HomeHero from 'components/Feature/HomeHero/HomeHero'
 
 export default class Home extends Component {
   render() {
     return (
-      <Container>
-        <Box classes="top5">
-          <AlbumSection
-            title="Featured Releases"
-            data={featuredReleases}
-          />
-        </Box>
-        <Box classes="top9">
-          <AlbumSection
-            title="Popular This Month"
-            data={popularThisMonth}
-          />
-        </Box>
-        <Box classes="top9">
-          <AlbumSection
-            title="Recently Added"
-            data={recentlyAdded}
-          />
-        </Box>
-      </Container>
+      <>
+        <HomeHero />
+        <Container>
+          <Box classes="top5">
+            <AlbumSection
+              title="Featured Releases"
+              data={featuredReleases}
+            />
+          </Box>
+          <Box classes="top9">
+            <AlbumSection
+              title="Popular This Month"
+              data={popularThisMonth}
+            />
+          </Box>
+          <Box classes="top9">
+            <AlbumSection
+              title="Recently Added"
+              data={recentlyAdded}
+            />
+          </Box>
+        </Container>
+      </>
     );
   }
 }
