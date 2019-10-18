@@ -1,9 +1,6 @@
 import React from 'react';
 
-import HList from 'components/HList/HList'
-import Txt from 'components/Txt/Txt'
-import Box from 'components/Box/Box'
-import Icon from 'components/Icon/Icon'
+import { Txt, Box, HList, Icon } from 'components/Base/Base'
 
 export default function Footer() {
   return (

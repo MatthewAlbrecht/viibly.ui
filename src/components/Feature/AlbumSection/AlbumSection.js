@@ -1,9 +1,7 @@
 import React from 'react'
 
-import Txt from 'components/Txt/Txt'
-import Box from 'components/Box/Box'
-import Row from 'components/Row/Row'
-import AlbumSectionItem from 'components/AlbumSectionItem/AlbumSectionItem'
+import { Txt, Box, Row } from 'components/Base/Base'
+import AlbumSectionItem from 'components/Feature/AlbumSectionItem/AlbumSectionItem'
 
 export default function AlbumSection(props) {
   return (
