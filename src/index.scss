@@ -22,32 +22,36 @@
 @import "styles/utilities/display";
 
 // ----------------------
-// Layout
+// Base Components
 // ----------------------
 
-@import "components/Box/Box";
-@import "components/Tier/Tier";
-@import "components/Row/Grid";
-@import "components/Container/Container";
-
-@import "components/VList/VList";
-@import "components/HList/HList";
-@import "components/Blocks/Blocks";
-@import "components/MaxWidth/MaxWidth";
+@import "components/Base/Box/Box";
+@import "components/Base/Tier/Tier";
+@import "components/Base/Row/Grid";
+@import "components/Base/Container/Container";
+@import "components/Base/VList/VList";
+@import "components/Base/HList/HList";
+@import "components/Base/Blocks/Blocks";
+@import "components/Base/MaxWidth/MaxWidth";
+@import "components/Base/BgImage/BgImage";
+@import "components/Base/Btn/Btn";
+@import "components/Base/Hr/Hr";
+@import "components/Base/Icon/Icon";
+@import "components/Base/Img/Img";
+@import "components/Base/Txt/Txt";
 
 // ---------------------------------
-// COMPONENTS
+// Layout Components
 // ---------------------------------
 
+@import "components/Layout/Nav/Nav";
+@import "components/Layout/Footer/Footer";
+@import "components/Layout/Header/Header";
 @import "components/App/App";
-@import "components/BgImage/BgImage";
-@import "components/Btn/Btn";
-@import "components/Footer/Footer";
-@import "components/Header/Header";
-@import "components/Hr/Hr";
-@import "components/Icon/Icon";
-@import "components/Img/Img";
-@import "components/Nav/Nav";
-@import "components/Txt/Txt";
-@import "components/AlbumSection/AlbumSection";
-@import "components/AlbumSectionItem/AlbumSectionItem";
+
+// ---------------------------------
+// Feature Components
+// ---------------------------------
+
+@import "components/Feature/AlbumSection/AlbumSection";
+@import "components/Feature/AlbumSectionItem/AlbumSectionItem";

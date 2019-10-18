@@ -4,7 +4,7 @@ import { Txt, Box, Col, Img } from 'components/Base/Base'
 
 export default function AlbumSectionItem(props) {
   return (
-    <Col classes="12 6Md 3Lg">
+    <Col classes="6 3Md">
       <Img 
         className="albumSectionItem-albumCover" 
         name="albumCover" 
