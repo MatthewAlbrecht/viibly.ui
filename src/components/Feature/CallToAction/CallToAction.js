@@ -1,6 +1,6 @@
 import React from 'react'
 import classnames from 'classnames'
-import { Box, Txt } from 'components/Base/Base'
+import { Box, Txt, Row, Col, Icon } from 'components/Base/Base'
 
 export default function CallToAction(props) {
   function className() {
@@ -10,7 +10,7 @@ export default function CallToAction(props) {
     ])
   }
   return (
-    <a className={className()}>
+    <a href="/" className={className()}>
       <Box classes="sides6 flats3">
         <Row>
           <Col classes="8">
