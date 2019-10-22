@@ -14,15 +14,17 @@ export default function HomeHero(props) {
             className="homeHero-heading"
           >
             We are building a new hub to
-            <i className="homeHero-underlinedText">
-              &nbsp;review music
-              <Icon 
-                type="Underline"
-                classes="underline"
-                className="homeHero-underline"
-                notIcon
-              />
-            </i>
+            <nobr>
+              <i className="homeHero-underlinedText">
+                &nbsp;review music
+                <Icon 
+                  type="Underline"
+                  classes="underline"
+                  className="homeHero-underline"
+                  notIcon
+                  />
+              </i>
+            </nobr>
           </Txt>
         </MaxWidth>
       </Container>
