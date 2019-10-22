@@ -1,4 +1,5 @@
 # React Boilerplate with Scss and Redux
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8806d3bf-7373-4348-ac17-3b256823a85a/deploy-status)](https://app.netlify.com/sites/viibly/deploys)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -78,3 +79,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+## Hosting
+
+This ui is hosted by [Netlify](netlify.com) 
+The dev environment is on [viibly.netlify.com](viibly.netlify.com)
