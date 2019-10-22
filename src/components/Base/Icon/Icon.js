@@ -3,6 +3,7 @@ import classnames from 'classnames';
 
 import Info from './Icons/Info';
 import FooterSwoosh from './Icons/FooterSwoosh';
+import Underline from './Icons/Underline';
 
 export default function Icon(props) {
   function getClasses() {
@@ -20,6 +21,7 @@ export default function Icon(props) {
   const iconMap = {
     'Info': <Info/>,
     'FooterSwoosh': <FooterSwoosh/>,
+    'Underline': <Underline/>,
   };
 
   return (
