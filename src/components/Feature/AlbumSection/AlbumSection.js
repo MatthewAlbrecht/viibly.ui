@@ -14,8 +14,9 @@ export default function AlbumSection(props) {
       />
       <Box classes="top3">
         <Row>
-          {props.data.map(album => 
-            <AlbumSectionItem 
+          {props.data.map((album, i) => 
+            <AlbumSectionItem
+              key={i} 
               artists={album.artists} 
               albumName={album.albumName} 
             />

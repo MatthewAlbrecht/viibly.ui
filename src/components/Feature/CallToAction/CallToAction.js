@@ -21,13 +21,15 @@ export default function CallToAction(props) {
               content={props.title}
               align="left"
             />
-            <Txt
-              tag="h4"
-              size="20"
-              color="Lightest"
-              content={props.subtitle}
-              align="left"
-            />
+            <Box classes="top1">
+              <Txt
+                tag="h4"
+                size="20"
+                color="Lightest"
+                content={props.subtitle}
+                align="left"
+              />
+            </Box>
           </Col>
           <Col classes="4">
             <Icon
