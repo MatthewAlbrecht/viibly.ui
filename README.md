@@ -84,4 +84,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ## Hosting
 
 This ui is hosted by [Netlify](netlify.com) 
+
 The dev environment is on [viibly.netlify.com](viibly.netlify.com)
