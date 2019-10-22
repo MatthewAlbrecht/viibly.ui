@@ -7,7 +7,7 @@ export default function AlbumSectionItem(props) {
     <Col classes="6 3Md">
       <Img 
         className="albumSectionItem-albumCover" 
-        name="albumCover" 
+        name="random" 
       />
       <Box classes="top2">
         <Txt

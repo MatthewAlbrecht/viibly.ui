@@ -8,4 +8,7 @@ export default {
   'albumCover': {
     'src': albumCover,
   },
+  'random': {
+    'src': 'https://picsum.photos/512',
+  },
 };
