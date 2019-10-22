@@ -1,6 +1,6 @@
 import React from 'react'
 import classnames from 'classnames'
-import { Box, Txt, Row, Col, Icon } from 'components/Base/Base'
+import { Box, Txt, Row, Col } from 'components/Base/Base'
 
 export default function CallToAction(props) {
   function className() {
@@ -32,10 +32,6 @@ export default function CallToAction(props) {
             </Box>
           </Col>
           <Col classes="4">
-            <Icon
-              type="Info"
-              classes="info"
-            />
           </Col>
         </Row>
       </Box>
