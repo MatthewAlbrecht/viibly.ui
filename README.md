@@ -1,4 +1,5 @@
 # React Boilerplate with Scss and Redux
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8806d3bf-7373-4348-ac17-3b256823a85a/deploy-status)](https://app.netlify.com/sites/viibly/deploys)
 
 Dev: [viibly.netlify.com](https://viibly.netlify.com)
@@ -9,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. Run `cp .env.default .env` to get started with default env variables
 2. Run `nvm use` to make sure you are on the same Node version as everyone else
-2. Run `yarn` to install dependencies
+3. Run `yarn` to install dependencies
 
 ## Develop
 
@@ -82,7 +83,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-
 ## Hosting
 
-This project is hosted by [Netlify](https://app.netlify.com/sites/viibly/overview) 
+This project is hosted by [Netlify](https://app.netlify.com/sites/viibly/overview)

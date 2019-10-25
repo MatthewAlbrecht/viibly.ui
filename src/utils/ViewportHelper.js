@@ -6,7 +6,7 @@ const ViewportHelper = {
    * @public
    */
   isTablet() {
-    return window.matchMedia('(min-width: 750px)').matches;
+    return window.matchMedia('(min-width: 750px)').matches
   },
 
   /**
@@ -16,7 +16,7 @@ const ViewportHelper = {
    * @public
    */
   isLarge() {
-    return window.matchMedia('(min-width: 1024px)').matches;
+    return window.matchMedia('(min-width: 1024px)').matches
   },
 
   /**
@@ -26,7 +26,7 @@ const ViewportHelper = {
    * @public
    */
   isLargePlus() {
-    return window.matchMedia('(min-width: 1440px)').matches;
+    return window.matchMedia('(min-width: 1440px)').matches
   },
 
   /**
@@ -36,8 +36,8 @@ const ViewportHelper = {
    * @public
    */
   isMobile() {
-    return window.matchMedia('(max-width: 749px)').matches;
+    return window.matchMedia('(max-width: 749px)').matches
   },
-};
+}
 
-export default ViewportHelper;
+export default ViewportHelper

@@ -3,7 +3,14 @@
 --------------------------------------------- */
 
 .homeHero {
-  background-image: linear-gradient(90deg, rgb(243,161,117) 0%, rgb(253,107,118) 11%, rgb(242,71,167) 60%, rgb(254,117,171) 93%, rgb(244,159,180) 100%);
+  background-image: linear-gradient(
+    90deg,
+    rgb(243, 161, 117) 0%,
+    rgb(253, 107, 118) 11%,
+    rgb(242, 71, 167) 60%,
+    rgb(254, 117, 171) 93%,
+    rgb(244, 159, 180) 100%
+  );
   padding: rhythm(8) 0 rhythm(15);
 }
 
@@ -13,7 +20,7 @@
 
 .homeHero-underline {
   bottom: rhythm(-2);
-  left: rhythm(.5);
+  left: rhythm(0.5);
   position: absolute;
   width: 100%;
 }

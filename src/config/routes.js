@@ -1,26 +1,26 @@
-import Home from 'pages/Home/Home';
-import Login from 'pages/Login/Login';
-import Albums from 'pages/Albums/Albums';
-import AboutUs from 'pages/AboutUs/AboutUs';
+import Home from 'pages/Home/Home'
+import Login from 'pages/Login/Login'
+import Albums from 'pages/Albums/Albums'
+import AboutUs from 'pages/AboutUs/AboutUs'
 
 const routes = [
   {
-    path: "/",
+    path: '/',
     component: Home,
     exact: true,
   },
   {
-    path: "/login",
+    path: '/login',
     component: Login,
   },
   {
-    path: "/albums",
+    path: '/albums',
     component: Albums,
   },
   {
-    path: "/about-us",
+    path: '/about-us',
     component: AboutUs,
   },
-];
+]
 
-export default routes;
+export default routes

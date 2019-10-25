@@ -11,12 +11,12 @@ $justifiers: (
   center: center,
   end: flex-end,
   around: space-around,
-  between: space-between
+  between: space-between,
 ) !default;
 $aligners: (
   start: flex-start,
   center: center,
-  end: flex-end
+  end: flex-end,
 ) !default;
 
 @mixin row-base-props() {
@@ -76,7 +76,7 @@ $aligners: (
       margin-right: 0;
 
       > .col,
-      > [class^="col"] {
+      > [class^='col'] {
         padding-left: 0;
         padding-right: 0;
       }
@@ -179,11 +179,14 @@ $aligners: (
 }
 
 // top level mixin to build the grid including all row and column classes
-@mixin build-grid($breakpoint, $num-columns: $grid-num-columns, $gutter: $grid-gutter-width) {
+@mixin build-grid(
+  $breakpoint,
+  $num-columns: $grid-num-columns,
+  $gutter: $grid-gutter-width
+) {
   @include build-row($breakpoint, $gutter);
   @include build-columns($num-columns, $breakpoint, $gutter);
 }
-
 
 @include build-grid('', 12, 16px);
 

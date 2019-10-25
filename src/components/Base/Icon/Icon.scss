@@ -34,13 +34,13 @@
 
   .primaryFill {
     fill: $colorLightest;
-    transition: fill .2s $easeOutQuad;
+    transition: fill 0.2s $easeOutQuad;
   }
 }
 
 .icon_selectDropdown {
   height: 1.4rem;
-  width: .9rem;
+  width: 0.9rem;
 }
 
 .icon_footerSwoosh > * {
@@ -76,7 +76,6 @@
 
 @include createIconSize(10);
 @include createIconSize(16);
-
 
 @include breakpoint(breakpoint-size('md')) {
   .icon_store {

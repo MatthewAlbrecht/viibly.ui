@@ -14,7 +14,7 @@
 
 @mixin createVList($rhythm, $resolution: '') {
   .vList_ {
-    &#{$rhythm}#{$resolution} > * + *  {
+    &#{$rhythm}#{$resolution} > * + * {
       margin-top: rhythm($rhythm);
     }
   }

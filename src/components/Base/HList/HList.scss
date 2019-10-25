@@ -19,7 +19,7 @@
 
 @mixin createHList($rhythm, $resolution: '') {
   .hList_ {
-    &#{$rhythm}#{$resolution} > * + *  {
+    &#{$rhythm}#{$resolution} > * + * {
       margin-left: rhythm($rhythm);
     }
   }

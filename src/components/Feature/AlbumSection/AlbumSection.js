@@ -6,21 +6,16 @@ import AlbumSectionItem from 'components/Feature/AlbumSectionItem/AlbumSectionIt
 export default function AlbumSection(props) {
   return (
     <>
-      <Txt
-        tag="h2"
-        size="24"
-        color="Darkest"
-        content={props.title}
-      />
-      <Box classes="top3">
+      <Txt tag='h2' size='24' color='Darkest' content={props.title} />
+      <Box classes='top3'>
         <Row>
-          {props.data.map((album, i) => 
+          {props.data.map((album, i) => (
             <AlbumSectionItem
-              key={i} 
-              artists={album.artists} 
-              albumName={album.albumName} 
+              key={i}
+              artists={album.artists}
+              albumName={album.albumName}
             />
-          )}
+          ))}
         </Row>
       </Box>
     </>

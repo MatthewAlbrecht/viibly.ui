@@ -12,4 +12,3 @@ export { default as MaxWidth } from 'components/Base/MaxWidth/MaxWidth'
 export { default as Row } from 'components/Base/Row/Row'
 export { default as Tier } from 'components/Base/Tier/Tier'
 export { default as Txt } from 'components/Base/Txt/Txt'
-

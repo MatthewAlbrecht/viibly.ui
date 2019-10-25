@@ -10,7 +10,7 @@ $displays: (
   none: none,
   table: table,
   tableCell: table-cell,
-  tableRow: table-row
+  tableRow: table-row,
 ) !default;
 
 @mixin display-props($display) {
