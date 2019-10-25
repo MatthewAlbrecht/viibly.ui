@@ -9,6 +9,6 @@ export default {
     src: albumCover,
   },
   random: {
-    src: 'https://picsum.photos/512',
+    src: 'https://loremflickr.com/512/512',
   },
 }
