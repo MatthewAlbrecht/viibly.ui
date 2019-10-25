@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { changeNavTransparency } from 'actions/nav'
+import { changeNavTransparency } from 'actions/nav.actions'
 import classnames from 'classnames'
 
 function Nav(props) {
